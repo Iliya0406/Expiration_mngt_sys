@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Expiry Reminder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Expiration Management System</h1>
+    <h2>for household items</h2>
+    
+    <form id="foodForm">
+      <input type="text" id="itemName" placeholder="Food item name" required>
+      <input type="date" id="expiryDate" required>
+      <button type="submit">Add Item</button>
+    </form>
+
+    <h2>My Food Items</h2>
+    <ul id="foodList"></ul>
+
+    <h2>Reminders</h2>
+    <div id="reminders"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
